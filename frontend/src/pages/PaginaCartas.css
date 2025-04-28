@@ -1,0 +1,73 @@
+.pagina-cartas-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .back-button {
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .back-button:hover {
+    background-color: #FF0;
+    color: #000;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .search-container {
+    margin: 20px 0;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+  }
+  
+  .search-button {
+    padding: 10px 15px;
+    background-color: #069;
+    color: white;
+    border:#000;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .search-button:hover {
+    background-color: #FF0;
+    color: #000;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .card-image-container {
+    margin-top: 20px;
+  }
+  
+  .card-image {
+    max-width: 600px;
+    max-height: 500px;
+    object-fit: contain;
+  }
+  
+  .pagina-cartas-container h2{
+    font-size: 90px;
+    color: red;
+    text-shadow: 1px 5px 5px #000;
+    font-family: sans-serif;
+  }
