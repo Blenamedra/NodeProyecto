@@ -1,17 +1,17 @@
 const express = require('express');
-const cors = require('cors');
 const app = express();
-const PORT = 3001;
+const cors = require('cors');
 
-
-app.use(cors()); // para permitir conexion desde el frontend
+app.use(cors());
 app.use(express.json());
 
-//ruta simple
-app.get('/',(req,res) => {
-    res.json({mensaje: 'Hola desde el backend de Express!'});
+// Ruta simple
+app.get('/', (req, res) => {
+  res.send('¡Hola desde el backend de la Pokedex!');
 });
 
-app.listen(PORT,() => {
-    console.log(`Servidor escuchando en http://localhost:${PORT}`);
+// Configuramos el puerto dinámico
+const PORT = process.env.PORT || 3001;
+app.listen(PORT, () => {
+  console.log(`Servidor escuchando en el puerto ${PORT}`);
 });
